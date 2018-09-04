@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('App/Android/Lib/InstallApp'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('App/Android/Lib/New Test Case'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('App/Android/Lib/FirstExploratory'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('App/Android/Lib/CloseApp'), [:], FailureHandling.STOP_ON_FAILURE)
 
