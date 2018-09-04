@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>01_WebProfile</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'agato@opentrends.net'</initValue>
+      <name>G_Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'NNccnT3MeQc5swBAGWM0rA=='</initValue>
+      <name>G_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://192.168.2.121/init/index-en.html'</initValue>
+      <name>G_URL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-09-04T16:44:26</date>
+  <millis>1536072266484</millis>
+  <sequence>17277</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1572</thread>
+  <message>Appium server started on port 52.216</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:45:18</date>
+  <millis>1536072318704</millis>
+  <sequence>17279</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1572</thread>
+  <message>Logging run data &amp;apos;appiumVersion&amp;apos; with value &amp;apos;1.8.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2018-09-04T16:45:18</date>
+  <millis>1536072318766</millis>
+  <sequence>17280</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1572</thread>
+  <message>Logging run data &amp;apos;deviceId&amp;apos; with value &amp;apos;10160a0973263f03&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">10160a0973263f03</property>
+</record>
+<record>
+  <date>2018-09-04T16:45:18</date>
+  <millis>1536072318766</millis>
+  <sequence>17281</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1572</thread>
+  <message>Logging run data &amp;apos;deviceName&amp;apos; with value &amp;apos;samsung SM-G920F (Android 7.0)&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">samsung SM-G920F (Android 7.0)</property>
+</record>
+<record>
+  <date>2018-09-04T16:45:18</date>
+  <millis>1536072318784</millis>
+  <sequence>17282</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1572</thread>
+  <message>Logging run data &amp;apos;deviceModel&amp;apos; with value &amp;apos;SM-G920F&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">SM-G920F</property>
+</record>
+<record>
+  <date>2018-09-04T16:45:18</date>
+  <millis>1536072318792</millis>
+  <sequence>17283</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1572</thread>
+  <message>Logging run data &amp;apos;deviceManufacturer&amp;apos; with value &amp;apos;samsung&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">samsung</property>
+</record>
+<record>
+  <date>2018-09-04T16:45:18</date>
+  <millis>1536072318800</millis>
+  <sequence>17284</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1572</thread>
+  <message>Logging run data &amp;apos;deviceOS&amp;apos; with value &amp;apos;Android&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2018-09-04T16:45:18</date>
+  <millis>1536072318807</millis>
+  <sequence>17285</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1572</thread>
+  <message>Logging run data &amp;apos;deviceOSVersion&amp;apos; with value &amp;apos;7.0&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">7.0</property>
+</record>
+<record>
+  <date>2018-09-04T16:47:36</date>
+  <millis>1536072456110</millis>
+  <sequence>17286</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1625</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:52:31</date>
+  <millis>1536072751976</millis>
+  <sequence>17287</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1644</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:52:41</date>
+  <millis>1536072761744</millis>
+  <sequence>17288</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1654</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:52:50</date>
+  <millis>1536072770177</millis>
+  <sequence>17289</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1664</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:53:06</date>
+  <millis>1536072786145</millis>
+  <sequence>17290</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1675</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:53:17</date>
+  <millis>1536072797126</millis>
+  <sequence>17291</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1684</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:53:39</date>
+  <millis>1536072819095</millis>
+  <sequence>17292</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1694</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:53:47</date>
+  <millis>1536072827554</millis>
+  <sequence>17293</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1704</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:53:56</date>
+  <millis>1536072836659</millis>
+  <sequence>17294</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1714</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:54:09</date>
+  <millis>1536072849292</millis>
+  <sequence>17295</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1725</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:54:17</date>
+  <millis>1536072857212</millis>
+  <sequence>17296</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1735</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:54:28</date>
+  <millis>1536072868112</millis>
+  <sequence>17297</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1744</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-09-04T16:54:37</date>
+  <millis>1536072877774</millis>
+  <sequence>17298</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1754</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
