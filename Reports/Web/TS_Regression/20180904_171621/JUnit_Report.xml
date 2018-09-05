@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Regression" time="16" tests="0" failures="3" errors="0">
+   <testsuite name="TS_Regression" tests="0" failures="3" errors="0" time="16" timestamp="2018-09-04 17:17:42" hostname="Agato - 172.20.13.209" id="Test Suites/Web/TS_Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Agato\\git\\Circutor\\Circutor\\Reports\\Web\\TS_Regression\\20180904_171621"/>
+         <property name="logFiles" value="C:\\Users\\Agato\\git\\Circutor\\Circutor\\Reports\\Web\\TS_Regression\\20180904_171621\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Agato - 172.20.13.209"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="172.20.13.209"/>
+         <property name="sessionId" value="40aaddf46a625ed5ce2cf5aa852a5944"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web/TC/TC_Home" classname="Test Cases/Web/TC/TC_Home" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-09-04 17:17:43 - [TEST_CASE][FAILED] - Test Cases/Web/TC/TC_Home: Test Cases/Web/TC/TC_Home FAILED because (of) Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-04 17:17:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Lib/Indice/OpenBrowser' successfully
+
+2018-09-04 17:17:43 - [TEST_CASE][PASSED] - Test Cases/Web/Lib/Indice/OpenBrowser: Test Cases/Web/Lib/Indice/OpenBrowser
+
+2018-09-04 17:17:43 - [TEST_STEP][PASSED] - Statement - Try: Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_MYeBOXCloud' is clicked on
+
+2018-09-04 17:17:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-04 17:17:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-04 17:17:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.2.121/init/index-en.html' successfully
+
+2018-09-04 17:17:47 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.121/init/index-en.html' successfully
+
+2018-09-04 17:17:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_I agree' is clicked on
+
+2018-09-04 17:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_I agree' is clicked on
+
+2018-09-04 17:17:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_MYeBOXCloud' is clicked on
+
+2018-09-04 17:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_MYeBOXCloud' is clicked on
+
+2018-09-04 17:17:48 - [TEST_STEP][PASSED] - Statement - Finally: Call Test Case 'Test Cases/Web/Lib/Indice/CloseBrowser' successfully
+
+2018-09-04 17:17:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Lib/Indice/CloseBrowser' successfully
+
+2018-09-04 17:17:48 - [TEST_CASE][PASSED] - Test Cases/Web/Lib/Indice/CloseBrowser: Test Cases/Web/Lib/Indice/CloseBrowser
+
+2018-09-04 17:17:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-04 17:17:49 - [MESSAGE][PASSED] - Browser is closed
+
+2018-09-04 17:17:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Lib/Indice/CloseBrowser' successfully
+
+2018-09-04 17:17:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Lib/Indice/OpenBrowser' successfully
+
+2018-09-04 17:17:49 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Web/Lib/Login/Login' (Root cause: Call Test Case 'Test Cases/Web/Lib/Login/Login' failed)
+
+2018-09-04 17:17:49 - [TEST_CASE][FAILED] - Test Cases/Web/Lib/Login/Login: Test Cases/Web/Lib/Login/Login FAILED because (of) Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-04 17:17:49 - [TEST_STEP][FAILED] - setText: Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-04 17:17:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-09-04 17:17:49 - [MESSAGE][FAILED] - Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-04 17:17:49 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Web/Lib/Login/Login' (Root cause: Call Test Case 'Test Cases/Web/Lib/Login/Login' failed)]]></system-out>
+         <system-err><![CDATA[2018-09-04 17:17:43 - [TEST_CASE][FAILED] - Test Cases/Web/TC/TC_Home: Test Cases/Web/TC/TC_Home FAILED because (of) Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/TC/TC_Login" classname="Test Cases/Web/TC/TC_Login" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-09-04 17:17:49 - [TEST_CASE][FAILED] - Test Cases/Web/TC/TC_Login: Test Cases/Web/TC/TC_Login FAILED because (of) Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-04 17:17:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Lib/Indice/OpenBrowser' successfully
+
+2018-09-04 17:17:49 - [TEST_CASE][PASSED] - Test Cases/Web/Lib/Indice/OpenBrowser: Test Cases/Web/Lib/Indice/OpenBrowser
+
+2018-09-04 17:17:49 - [TEST_STEP][PASSED] - Statement - Try: Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_MYeBOXCloud' is clicked on
+
+2018-09-04 17:17:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-04 17:17:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-04 17:17:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.2.121/init/index-en.html' successfully
+
+2018-09-04 17:17:52 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.121/init/index-en.html' successfully
+
+2018-09-04 17:17:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_I agree' is clicked on
+
+2018-09-04 17:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_I agree' is clicked on
+
+2018-09-04 17:17:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_MYeBOXCloud' is clicked on
+
+2018-09-04 17:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_MYeBOXCloud' is clicked on
+
+2018-09-04 17:17:53 - [TEST_STEP][PASSED] - Statement - Finally: Call Test Case 'Test Cases/Web/Lib/Indice/CloseBrowser' successfully
+
+2018-09-04 17:17:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Lib/Indice/CloseBrowser' successfully
+
+2018-09-04 17:17:53 - [TEST_CASE][PASSED] - Test Cases/Web/Lib/Indice/CloseBrowser: Test Cases/Web/Lib/Indice/CloseBrowser
+
+2018-09-04 17:17:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-04 17:17:54 - [MESSAGE][PASSED] - Browser is closed
+
+2018-09-04 17:17:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Lib/Indice/CloseBrowser' successfully
+
+2018-09-04 17:17:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Lib/Indice/OpenBrowser' successfully
+
+2018-09-04 17:17:54 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Web/Lib/Login/Login' (Root cause: Call Test Case 'Test Cases/Web/Lib/Login/Login' failed)
+
+2018-09-04 17:17:54 - [TEST_CASE][FAILED] - Test Cases/Web/Lib/Login/Login: Test Cases/Web/Lib/Login/Login FAILED because (of) Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-04 17:17:54 - [TEST_STEP][FAILED] - setText: Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-04 17:17:54 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-09-04 17:17:54 - [MESSAGE][FAILED] - Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-04 17:17:54 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Web/Lib/Login/Login' (Root cause: Call Test Case 'Test Cases/Web/Lib/Login/Login' failed)]]></system-out>
+         <system-err><![CDATA[2018-09-04 17:17:49 - [TEST_CASE][FAILED] - Test Cases/Web/TC/TC_Login: Test Cases/Web/TC/TC_Login FAILED because (of) Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/TC/TC_NewUser" classname="Test Cases/Web/TC/TC_NewUser" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Web/Index/Page_MyCircutor/button_Create a new account' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-09-04 17:17:54 - [TEST_CASE][FAILED] - Test Cases/Web/TC/TC_NewUser: Test Cases/Web/TC/TC_NewUser FAILED because (of) Unable to click on object 'Object Repository/Web/Index/Page_MyCircutor/button_Create a new account' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-04 17:17:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Lib/Indice/OpenBrowser' successfully
+
+2018-09-04 17:17:54 - [TEST_CASE][PASSED] - Test Cases/Web/Lib/Indice/OpenBrowser: Test Cases/Web/Lib/Indice/OpenBrowser
+
+2018-09-04 17:17:54 - [TEST_STEP][PASSED] - Statement - Try: Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_MYeBOXCloud' is clicked on
+
+2018-09-04 17:17:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-04 17:17:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-04 17:17:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.2.121/init/index-en.html' successfully
+
+2018-09-04 17:17:57 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.121/init/index-en.html' successfully
+
+2018-09-04 17:17:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_I agree' is clicked on
+
+2018-09-04 17:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_I agree' is clicked on
+
+2018-09-04 17:17:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_MYeBOXCloud' is clicked on
+
+2018-09-04 17:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Index/Page_MYeBOX Cloud/a_MYeBOXCloud' is clicked on
+
+2018-09-04 17:17:58 - [TEST_STEP][PASSED] - Statement - Finally: Call Test Case 'Test Cases/Web/Lib/Indice/CloseBrowser' successfully
+
+2018-09-04 17:17:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Lib/Indice/CloseBrowser' successfully
+
+2018-09-04 17:17:58 - [TEST_CASE][PASSED] - Test Cases/Web/Lib/Indice/CloseBrowser: Test Cases/Web/Lib/Indice/CloseBrowser
+
+2018-09-04 17:17:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-04 17:17:59 - [MESSAGE][PASSED] - Browser is closed
+
+2018-09-04 17:17:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Lib/Indice/CloseBrowser' successfully
+
+2018-09-04 17:17:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Lib/Indice/OpenBrowser' successfully
+
+2018-09-04 17:17:59 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Web/Lib/Login/NewUser' (Root cause: Call Test Case 'Test Cases/Web/Lib/Login/NewUser' failed)
+
+2018-09-04 17:17:59 - [TEST_CASE][FAILED] - Test Cases/Web/Lib/Login/NewUser: Test Cases/Web/Lib/Login/NewUser FAILED because (of) Unable to click on object 'Object Repository/Web/Index/Page_MyCircutor/button_Create a new account' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-04 17:17:59 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Web/Index/Page_MyCircutor/button_Create a new account' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-04 17:17:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-09-04 17:17:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Web/Index/Page_MyCircutor/button_Create a new account' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-04 17:17:59 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Web/Lib/Login/NewUser' (Root cause: Call Test Case 'Test Cases/Web/Lib/Login/NewUser' failed)]]></system-out>
+         <system-err><![CDATA[2018-09-04 17:17:54 - [TEST_CASE][FAILED] - Test Cases/Web/TC/TC_NewUser: Test Cases/Web/TC/TC_NewUser FAILED because (of) Unable to click on object 'Object Repository/Web/Index/Page_MyCircutor/button_Create a new account' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-04 17:17:42 - [TEST_SUITE][FAILED] - TS_Regression: Test Cases/Web/TC/TC_Home FAILED because (of) Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-09-04 17:17:42 - [TEST_SUITE][FAILED] - TS_Regression: Test Cases/Web/TC/TC_Home FAILED because (of) Unable to set text 'agato@opentrends.net' of object 'Object Repository/Web/Home/Page_MyCircutor/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>
