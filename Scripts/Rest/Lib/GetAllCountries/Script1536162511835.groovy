@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequest(findTestObject('Rest/Prueba1'))
+WS.sendRequest(findTestObject('Rest/GetCountry'))
 
