@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Regression" time="6" tests="0" failures="3" errors="0">
+   <testsuite name="TS_Regression" tests="0" failures="3" errors="0" time="6" timestamp="2018-09-05 15:36:18" hostname="Agato - 172.20.13.209" id="Test Suites/Web/TS_Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Agato\\git\\Circutor\\Circutor\\Reports\\Web\\TS_Regression\\20180905_153210"/>
+         <property name="logFiles" value="C:\\Users\\Agato\\git\\Circutor\\Circutor\\Reports\\Web\\TS_Regression\\20180905_153210\\execution0.log, C:\\Users\\Agato\\git\\Circutor\\Circutor\\Reports\\Web\\TS_Regression\\20180905_153210\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Agato - 172.20.13.209"/>
+         <property name="hostAddress" value="172.20.13.209"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+      </properties>
+      <testcase name="Test Cases/Web/TC/TC_Home" classname="Test Cases/Web/TC/TC_Home" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )"/>
+         <system-out><![CDATA[2018-09-05 15:36:19 - [TEST_CASE][FAILED] - Test Cases/Web/TC/TC_Home: Test Cases/Web/TC/TC_Home FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-09-05 15:36:19 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Web/Lib/Indice/OpenBrowser' (Root cause: Call Test Case 'Test Cases/Web/Lib/Indice/OpenBrowser' failed)
+
+2018-09-05 15:36:19 - [TEST_CASE][FAILED] - Test Cases/Web/Lib/Indice/OpenBrowser: Test Cases/Web/Lib/Indice/OpenBrowser FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-09-05 15:36:19 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-09-05 15:36:22 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-09-05 15:36:22 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Web/Lib/Indice/OpenBrowser' (Root cause: Call Test Case 'Test Cases/Web/Lib/Indice/OpenBrowser' failed)]]></system-out>
+         <system-err><![CDATA[2018-09-05 15:36:19 - [TEST_CASE][FAILED] - Test Cases/Web/TC/TC_Home: Test Cases/Web/TC/TC_Home FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/TC/TC_Login" classname="Test Cases/Web/TC/TC_Login" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )"/>
+         <system-out><![CDATA[2018-09-05 15:36:22 - [TEST_CASE][FAILED] - Test Cases/Web/TC/TC_Login: Test Cases/Web/TC/TC_Login FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-09-05 15:36:22 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Web/Lib/Indice/OpenBrowser' (Root cause: Call Test Case 'Test Cases/Web/Lib/Indice/OpenBrowser' failed)
+
+2018-09-05 15:36:22 - [TEST_CASE][FAILED] - Test Cases/Web/Lib/Indice/OpenBrowser: Test Cases/Web/Lib/Indice/OpenBrowser FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-09-05 15:36:22 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-09-05 15:36:23 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-09-05 15:36:23 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Web/Lib/Indice/OpenBrowser' (Root cause: Call Test Case 'Test Cases/Web/Lib/Indice/OpenBrowser' failed)]]></system-out>
+         <system-err><![CDATA[2018-09-05 15:36:22 - [TEST_CASE][FAILED] - Test Cases/Web/TC/TC_Login: Test Cases/Web/TC/TC_Login FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/TC/TC_NewUser" classname="Test Cases/Web/TC/TC_NewUser" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )"/>
+         <system-out><![CDATA[2018-09-05 15:36:23 - [TEST_CASE][FAILED] - Test Cases/Web/TC/TC_NewUser: Test Cases/Web/TC/TC_NewUser FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-09-05 15:36:23 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Web/Lib/Indice/OpenBrowser' (Root cause: Call Test Case 'Test Cases/Web/Lib/Indice/OpenBrowser' failed)
+
+2018-09-05 15:36:23 - [TEST_CASE][FAILED] - Test Cases/Web/Lib/Indice/OpenBrowser: Test Cases/Web/Lib/Indice/OpenBrowser FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-09-05 15:36:23 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-09-05 15:36:24 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-09-05 15:36:24 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Web/Lib/Indice/OpenBrowser' (Root cause: Call Test Case 'Test Cases/Web/Lib/Indice/OpenBrowser' failed)]]></system-out>
+         <system-err><![CDATA[2018-09-05 15:36:23 - [TEST_CASE][FAILED] - Test Cases/Web/TC/TC_NewUser: Test Cases/Web/TC/TC_NewUser FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-05 15:36:18 - [TEST_SUITE][FAILED] - TS_Regression: Test Cases/Web/TC/TC_Home FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-out>
+      <system-err><![CDATA[2018-09-05 15:36:18 - [TEST_SUITE][FAILED] - TS_Regression: Test Cases/Web/TC/TC_Home FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC251', ip: '172.20.13.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-err>
+   </testsuite>
+</testsuites>

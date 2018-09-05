@@ -21,7 +21,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.setText(findTestObject('Web/Home/Page_MyCircutor/input_email'), GlobalVariable.G_Username)
 
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setEncryptedText(findTestObject('Web/Home/Page_MyCircutor/input_password'), GlobalVariable.G_password)
 
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Web/Home/Page_MyCircutor/button_Login'))
+
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -48,7 +48,7 @@
             <profileName>01_WebProfile</profileName>
             <runConfigurationId>IE</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Web/TS_Regression</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>

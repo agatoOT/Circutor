@@ -19,5 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Web/Home/Page_MyCircutor/a_Audit'))
+WebUI.click(findTestObject('Web/Home/Page_MyCircutor/a_Users'))
+
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 

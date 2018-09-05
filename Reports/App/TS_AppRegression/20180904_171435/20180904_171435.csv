@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-TS_AppRegression,,,2018-09-04 17:14:37,2018-09-04 17:16:00,"1m - 23,050s",PASSED
-,,,,,,
-Test Cases/App/Android/TC/New Test Case,,,2018-09-04 17:14:37,2018-09-04 17:16:00,"1m - 22,688s",PASSED
-callTestCase,,,2018-09-04 17:14:38,2018-09-04 17:15:21,"43,411s",PASSED
-callTestCase,,,2018-09-04 17:15:21,2018-09-04 17:15:56,"34,971s",PASSED
-callTestCase,,,2018-09-04 17:15:56,2018-09-04 17:16:00,"4,052s",PASSED

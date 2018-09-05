@@ -21,3 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Web/Home/Page_MyCircutor/a_MYeBOXs'))
 
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+

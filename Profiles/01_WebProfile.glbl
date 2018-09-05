@@ -19,4 +19,9 @@
       <initValue>'http://192.168.2.121/init/index-en.html'</initValue>
       <name>G_URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>2</initValue>
+      <name>G_delay</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

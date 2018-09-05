@@ -19,16 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-try {
-    WebUI.openBrowser('')
+WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(GlobalVariable.G_URL)
+WebUI.navigateToUrl(GlobalVariable.G_URL)
 
-    WebUI.click(findTestObject('Web/Index/Page_MYeBOX Cloud/a_I agree'))
+WebUI.click(findTestObject('Web/Index/Page_MYeBOX Cloud/a_I agree'))
 
-    WebUI.click(findTestObject('Web/Index/Page_MYeBOX Cloud/a_MYeBOXCloud'))
-}
-finally { 
-    WebUI.callTestCase(findTestCase('Web/Lib/Indice/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Web/Index/Page_MYeBOX Cloud/a_MYeBOXCloud'))
+
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 

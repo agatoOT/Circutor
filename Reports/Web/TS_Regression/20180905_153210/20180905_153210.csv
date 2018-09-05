@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Regression,,,2018-09-05 15:36:18,2018-09-05 15:36:25,"6,757s",FAILED
+,,,,,,
+Test Cases/Web/TC/TC_Home,,,2018-09-05 15:36:19,2018-09-05 15:36:22,"2,921s",FAILED
+callTestCase,,,2018-09-05 15:36:19,2018-09-05 15:36:22,"2,610s",FAILED
+,,,,,,
+Test Cases/Web/TC/TC_Login,,,2018-09-05 15:36:22,2018-09-05 15:36:23,"1,292s",FAILED
+callTestCase,,,2018-09-05 15:36:22,2018-09-05 15:36:23,"1,104s",FAILED
+,,,,,,
+Test Cases/Web/TC/TC_NewUser,,,2018-09-05 15:36:23,2018-09-05 15:36:24,"1,497s",FAILED
+callTestCase,,,2018-09-05 15:36:23,2018-09-05 15:36:24,"1,343s",FAILED

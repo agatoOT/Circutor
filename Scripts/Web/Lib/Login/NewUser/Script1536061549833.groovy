@@ -21,9 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Web/Index/Page_MyCircutor/button_Create a new account'))
 
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Web/Index/Page_MyCircutor/div_Company name'))
 
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('Web/Index/Page_MyCircutor/input_enterpriseName'), 'Opentrends')
+
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.click(findTestObject('Web/Index/Page_MyCircutor/i_glyphicon glyphicon-menu-dow'))
 
@@ -31,23 +37,43 @@ not_run: WebUI.click(findTestObject('Web/Index/Page_MyCircutor/a_Aerospace'))
 
 WebUI.setText(findTestObject('Web/Index/Page_MyCircutor/input_userName'), 'Prueba1')
 
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Web/Index/Page_MyCircutor/div_EMAIL'))
+
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Web/Index/Page_MyCircutor/input_email'), 'agato@opentrends.net')
 
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('Web/Index/Page_MyCircutor/input_city'), 'BArcelona')
+
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Web/Index/Page_MyCircutor/i_glyphicon glyphicon-menu-dow_1'))
 
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Web/Index/Page_MyCircutor/a_Head of department'))
+
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setEncryptedText(findTestObject('Web/Index/Page_MyCircutor/input_password'), 'OPoca6cPMueeqJUaet3M5g==')
 
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setEncryptedText(findTestObject('Web/Index/Page_MyCircutor/input_repeatedPassword'), 'OPoca6cPMueeqJUaet3M5g==')
+
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Web/Index/Page_MyCircutor/label_I want to receive email'))
 
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Web/Index/Page_MyCircutor/label_I accept the privacy pol'))
+
+WebUI.callTestCase(findTestCase('Web/Lib/Indice/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.click(findTestObject('Web/Index/Page_MyCircutor/button_CREATE ACCOUNT'))
 

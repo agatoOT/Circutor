@@ -4,6 +4,12 @@
    <name>input_email</name>
    <tag></tag>
    <elementGuidId>37ebcc32-e11c-42ae-8a86-a0d958a198c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'email' and @name = 'email' and @placeholder = 'Your email' and @type = 'text']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
