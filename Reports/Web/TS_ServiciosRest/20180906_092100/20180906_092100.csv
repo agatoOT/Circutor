@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_ServiciosRest,,,2018-09-06 09:21:02,2018-09-06 09:21:38,"35,563s",PASSED
+,,,,,,
+Test Cases/App/Android/TC/PruebaMixta,,,2018-09-06 09:21:02,2018-09-06 09:21:37,"34,546s",PASSED
+callTestCase,,,2018-09-06 09:21:03,2018-09-06 09:21:32,"28,813s",PASSED
+callTestCase,,,2018-09-06 09:21:32,2018-09-06 09:21:34,"2,283s",PASSED
+callTestCase,,,2018-09-06 09:21:34,2018-09-06 09:21:34,"0,606s",PASSED
+callTestCase,,,2018-09-06 09:21:34,2018-09-06 09:21:36,"1,369s",PASSED
+callTestCase,,,2018-09-06 09:21:36,2018-09-06 09:21:37,"1,232s",PASSED
+,,,,,,
+Test Cases/Rest/TC/ServiciosRest,,,2018-09-06 09:21:37,2018-09-06 09:21:38,"0,713s",PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Rest/GetAllCountries)),,,2018-09-06 09:21:37,2018-09-06 09:21:38,"0,608s",PASSED
+verifyResponseStatusCode,,,2018-09-06 09:21:38,2018-09-06 09:21:38,"0,008s",PASSED
+verifyElementPropertyValue,,,2018-09-06 09:21:38,2018-09-06 09:21:38,"0,042s",PASSED

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="3" tests="1" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="1" errors="0" time="3" timestamp="2018-09-06 09:11:19" hostname="Agato - 172.20.13.209" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Agato\\git\\Circutor\\Circutor\\Reports\\New Test Suite\\20180906_091117"/>
+         <property name="logFiles" value="C:\\Users\\Agato\\git\\Circutor\\Circutor\\Reports\\New Test Suite\\20180906_091117\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Agato - 172.20.13.209"/>
+         <property name="hostAddress" value="172.20.13.209"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+      </properties>
+      <testcase name="Test Cases/App/Android/TC/PruebaMixta" classname="Test Cases/App/Android/TC/PruebaMixta" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'C:\Users\Agato\Desktop\agato1\Migracion\ApiDemosApp\ApiDemos-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)"/>
+         <system-out><![CDATA[2018-09-06 09:11:19 - [TEST_CASE][FAILED] - Test Cases/App/Android/TC/PruebaMixta: Test Cases/App/Android/TC/PruebaMixta FAILED because (of) Unable to start app at: 'C:\Users\Agato\Desktop\agato1\Migracion\ApiDemosApp\ApiDemos-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-09-06 09:11:19 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/App/Android/Lib/InstallApp' (Root cause: Call Test Case 'Test Cases/App/Android/Lib/InstallApp' failed)
+
+2018-09-06 09:11:20 - [TEST_CASE][FAILED] - Test Cases/App/Android/Lib/InstallApp: Test Cases/App/Android/Lib/InstallApp FAILED because (of) Unable to start app at: 'C:\Users\Agato\Desktop\agato1\Migracion\ApiDemosApp\ApiDemos-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-09-06 09:11:20 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'C:\Users\Agato\Desktop\agato1\Migracion\ApiDemosApp\ApiDemos-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-09-06 09:11:20 - [MESSAGE][FAILED] - Unable to start app at: 'C:\Users\Agato\Desktop\agato1\Migracion\ApiDemosApp\ApiDemos-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-09-06 09:11:20 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/App/Android/Lib/InstallApp' (Root cause: Call Test Case 'Test Cases/App/Android/Lib/InstallApp' failed)]]></system-out>
+         <system-err><![CDATA[2018-09-06 09:11:19 - [TEST_CASE][FAILED] - Test Cases/App/Android/TC/PruebaMixta: Test Cases/App/Android/TC/PruebaMixta FAILED because (of) Unable to start app at: 'C:\Users\Agato\Desktop\agato1\Migracion\ApiDemosApp\ApiDemos-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rest/TC/ServiciosRest" classname="Test Cases/Rest/TC/ServiciosRest" status="PASSED">
+         <system-out><![CDATA[2018-09-06 09:11:20 - [TEST_CASE][PASSED] - Test Cases/Rest/TC/ServiciosRest: Test Cases/Rest/TC/ServiciosRest
+
+2018-09-06 09:11:20 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Rest/GetAllCountries)): Send request successfully
+
+2018-09-06 09:11:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-09-06 09:11:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-09-06 09:11:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-09-06 09:11:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-09-06 09:11:22 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-06 09:11:19 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/App/Android/TC/PruebaMixta FAILED because (of) Unable to start app at: 'C:\Users\Agato\Desktop\agato1\Migracion\ApiDemosApp\ApiDemos-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+      <system-err><![CDATA[2018-09-06 09:11:19 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/App/Android/TC/PruebaMixta FAILED because (of) Unable to start app at: 'C:\Users\Agato\Desktop\agato1\Migracion\ApiDemosApp\ApiDemos-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+   </testsuite>
+</testsuites>

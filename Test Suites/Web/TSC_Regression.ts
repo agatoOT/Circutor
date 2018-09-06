@@ -26,6 +26,15 @@
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Web/TS_ServiciosRest</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>01_WebProfile</profileName>
             <runConfigurationId>Chrome</runConfigurationId>

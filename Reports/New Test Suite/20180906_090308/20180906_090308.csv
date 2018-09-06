@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2018-09-06 09:03:09,2018-09-06 09:03:12,"2,392s",PASSED
+,,,,,,
+Test Cases/Rest/TC/ServiciosRest,,,2018-09-06 09:03:09,2018-09-06 09:03:11,"1,938s",PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Rest/GetAllCountries)),,,2018-09-06 09:03:10,2018-09-06 09:03:11,"1,535s",PASSED
+verifyResponseStatusCode,,,2018-09-06 09:03:11,2018-09-06 09:03:11,"0,036s",PASSED
+verifyElementPropertyValue,,,2018-09-06 09:03:11,2018-09-06 09:03:11,"0,054s",PASSED

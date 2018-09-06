@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2018-09-06 09:16:33,2018-09-06 09:17:10,"36,602s",PASSED
+,,,,,,
+Test Cases/App/Android/TC/PruebaMixta,,,2018-09-06 09:16:33,2018-09-06 09:17:10,"36,284s",PASSED
+callTestCase,,,2018-09-06 09:16:34,2018-09-06 09:17:04,"30,529s",PASSED
+callTestCase,,,2018-09-06 09:17:04,2018-09-06 09:17:06,"2,068s",PASSED
+callTestCase,,,2018-09-06 09:17:06,2018-09-06 09:17:07,"0,498s",PASSED
+callTestCase,,,2018-09-06 09:17:07,2018-09-06 09:17:08,"1,671s",PASSED
+callTestCase,,,2018-09-06 09:17:08,2018-09-06 09:17:10,"1,253s",PASSED
