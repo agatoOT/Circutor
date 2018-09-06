@@ -11,7 +11,7 @@
    <httpBodyType></httpBodyType>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://restcountries.eu/rest/v2/all</restUrl>
+   <restUrl>https://sample-web-service-aut.herokuapp.com/api/users/accept-json?gender=MALE&amp;age=15</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

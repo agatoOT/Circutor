@@ -19,7 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Rest/Lib/GetCountry'), [:], FailureHandling.STOP_ON_FAILURE)
+response = WS.sendRequest(findTestObject('Rest/GetAllCountries'))
 
-WebUI.callTestCase(findTestCase('Rest/Lib/GetAllCountries'), [:], FailureHandling.STOP_ON_FAILURE)
+WS.verifyResponseStatusCode(response, 200)
+
+WS.verifyElementPropertyValue(response, '[0].username', 'John Smith')
 

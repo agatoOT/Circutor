@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2018-09-06 08:13:59,2018-09-06 08:14:01,"1,489s",ERROR
+,,,,,,
+Test Cases/Rest/TC/ServiciosRest,,,2018-09-06 08:14:00,2018-09-06 08:14:01,"1,145s",ERROR
+sendRequest,,,2018-09-06 08:14:00,2018-09-06 08:14:01,"0,800s",PASSED
+verifyResponseStatusCode,,,2018-09-06 08:14:01,2018-09-06 08:14:01,"0,018s",PASSED
